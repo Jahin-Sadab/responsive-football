@@ -287,6 +287,10 @@ footer {
         justify-content: normal;
     }
 
+    .header-title {
+        width: 100%;
+    }
+
     .header-blogs {
         margin-bottom: 20px;
     }
@@ -316,10 +320,12 @@ footer {
     }
 
     .high-detail {
+        width: 100%;
         padding: 5px;
     }
 
     .last-blog {
+        width: 100%;
         transform: scale(.9);
     }
 }
