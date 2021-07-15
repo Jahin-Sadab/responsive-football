@@ -236,11 +236,18 @@ footer {
     }
 
     .banner {
+        width: 100%;
         height: auto;
         justify-content: normal;
     }
 
+    .header-title {
+        width: 100%;
+        height: auto;
+    }
+
     .header-blogs {
+        width: 100%;
         margin-bottom: 20px;
     }
 
@@ -269,6 +276,7 @@ footer {
     }
 
     .high-detail {
+        
         padding: 5px;
     }
 
