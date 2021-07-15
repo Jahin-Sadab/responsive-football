@@ -55,6 +55,8 @@ body {
 .header-thumbnail img {
     width: 556.01px;
     height: 438px;
+    border-radius: 10px;
+    border-bottom-right-radius: 40px;
 }
 
 /*--------------------------
