@@ -244,6 +244,14 @@ footer {
         margin-bottom: 20px;
     }
 
+    .header-thumbnail img {
+        width: 100%;
+    }
+
+    .high-thumbnail img {
+        width: 100%;
+    }
+
     .menu {
         flex-direction: column;
         align-items: normal;
@@ -266,5 +274,52 @@ footer {
 
     .last-blog {
         transform: scale(.7);
+    }
+}
+
+@media only screen and (min-width: 689px) and (max-width: 992px){
+    .container {
+        width: 100%;
+    }
+
+    .banner {
+        height: auto;
+        justify-content: normal;
+    }
+
+    .header-blogs {
+        margin-bottom: 20px;
+    }
+
+    .header-thumbnail img {
+        width: 100%;
+    }
+
+    .high-thumbnail img {
+        width: 100%;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .frames {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .high-frame {
+        width: 100%;
+        flex-direction: column;
+        align-items: normal;
+        margin-bottom: 40px;
+    }
+
+    .high-detail {
+        padding: 5px;
+    }
+
+    .last-blog {
+        transform: scale(.9);
     }
 }
