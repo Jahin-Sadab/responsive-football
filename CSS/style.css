@@ -24,19 +24,30 @@ body {
 .blogs {
     width: 330px;
     height: 474px;
-    padding: 15px;
+    padding: 15px 15px 33px 15px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.blog-info {
+    margin-bottom: 33px;
 }
 
 .thumbnail img {
     width: 100%;
+    height: 256px;
 }
 
 .blog-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
     margin-top: 16px;
     margin-bottom: 10px;
 }
 
 .blog-intro {
-    margin-top: 0;
+    line-height: 26px;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0 0;
 }
