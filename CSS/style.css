@@ -8,9 +8,61 @@ body {
 }
 
 
+/*-----------------------
+      Header css 
+-------------------------*/
+
+.banner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 630px;
+    background-color:olivedrab;
+    margin-bottom: 70px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.header-blogs {
+    margin: 0 102px 0 0;
+}
+
+.header-title {
+    width: 485px;
+    height: 230px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.live-link {
+    width: 173px;
+    height: 44px;
+    background-color: Gray;
+    padding: 10px 24px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header-thumbnail img {
+    width: 556.01px;
+    height: 438px;
+}
+
 /*--------------------------
-    main body css 
+      main body css 
 ---------------------------*/
+
+body {
+    margin: 0;
+}
 
 .container {
     display: flex;
@@ -121,7 +173,7 @@ body {
    footer css 
  ------------------------*/
 
- .last-frame {
+footer {
     display: flex;
     width: 483.87px;
     height: 213px;
