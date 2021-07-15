@@ -237,11 +237,16 @@ footer {
 
     .banner {
         height: auto;
-        flex-direction: row;
+        justify-content: normal;
+    }
+
+    .header-blogs {
+        margin-bottom: 20px;
     }
 
     .menu {
         flex-direction: column;
+        align-items: normal;
     }
 
     .frames {
@@ -251,6 +256,12 @@ footer {
     .high-frame {
         width: 100%;
         flex-direction: column;
+        align-items: normal;
+        margin-bottom: 40px;
+    }
+
+    .high-detail {
+        padding: 5px;
     }
 
     .last-blog {
