@@ -65,6 +65,7 @@ body {
 .high-frame {
     display: flex;
     align-items: center;
+    margin-bottom: 158px;
 }
 
 .high-detail {
@@ -113,4 +114,51 @@ body {
 .high-thumbnail img {
     width: 567px;
     height: 427px;
+}
+
+
+/*----------------------
+   footer css 
+ ------------------------*/
+
+ .last-frame {
+    display: flex;
+    width: 483.87px;
+    height: 213px;
+    margin-bottom: 63px;
+}
+
+.last-blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fire-ball {
+    margin-bottom: 20px;
+}
+
+.fire-ball img {
+    width: 483.87px;
+    height: 110px;
+}
+
+.icons {
+    width: 170px;
+    height: 32px;
+    margin-bottom: 20px;
+}
+
+.icon-color {
+    color: gray;
+    margin-left: 16px;
+}
+
+.copyright {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
